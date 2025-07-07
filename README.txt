@@ -1,5 +1,5 @@
 👨‍💻 Ajay S | Portfolio
-Welcome to the GitHub repository for my personal portfolio website. NOTE : This project is built for personal branding and freelance work. You are welcome to explore the content, but please do not copy directly without permission.
+Welcome to the GitHub repository for my personal portfolio website. 
 
 NOTE: This project is built for personal branding and freelance work. You are welcome to explore the content, but please do not copy directly without permission.
 
