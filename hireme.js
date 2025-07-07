@@ -229,7 +229,7 @@ function setupDownloadButton() {
         
         // Simulate download (replace with actual download logic)
         setTimeout(() => {
-            alert('Resume download would start here!');
+            alert('Check your downloads!');
         }, 400);
     });
 }
