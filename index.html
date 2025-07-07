@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - HTML, CSS & Vanilla Javascript || AJAY464</title>
+    <link rel="stylesheet" href="styles.css">
+    
+
+    <!-- Load Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    
+  </head>
+  <body>
+    <!-- Scroll to top button -->
+    <div class="scrollToTop-btn">
+      <i class="fas fa-angle-up"></i>
+    </div>
+
+    <!-- Header section with navigation -->
+    <header>
+
+      <div class="header-container">
+        <img src="assets/SIgn LOgo Ajay.png" alt="Logo" class="header-logo" />
+      </div>
+      <div class="menu-btn"></div>
+      <div class="navigation">
+        <a href="#main">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#services">Services</a>
+        <a href="#work">Experience</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </header>
+
+    <!-- Main/Hero section -->
+        <!-- Main/Hero section -->
+<section class="main" id="main">
+  <video autoplay loop muted playsinline id="background-video">
+      <source src="assets/compressedvid.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+  </video>
+  <div class="content">
+      <h2>Hello, I'm<br><span>Ajay S</span></h2>
+      <div class="animated-text">
+          <h3>Robotics Engineer</h3>
+          <h3>Design Engineer</h3>
+          <h3>Front-end Dev</h3>
+          <h3>Network Engineer</h3>
+          <h3>R&D Engineer</h3>
+      </div>
+      <a href="hireme.html" class="btn">Hire Me</a>
+  </div>
+</section>
+
+        
+        <!-- Social media icons -->
+        <ul class="example-2">
+          <li class="icon-content">
+            <a
+              href="https://www.linkedin.com/in/ajay-s-34462b333"
+              aria-label="LinkedIn"
+              data-social="linkedin"
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <div class="filled"></div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-linkedin"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </a>
+            <div class="tooltip">LinkedIn</div>
+          </li>
+          <li class="icon-content">
+            <a 
+              href="https://www.github.com/Ajay-464" 
+              aria-label="GitHub" 
+              data-social="github"
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <div class="filled"></div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-github"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </a>
+            <div class="tooltip">GitHub</div>
+          </li>
+          <li class="icon-content">
+            <a
+              href="https://www.instagram.com/ajay_.464"
+              aria-label="Instagram"
+              data-social="instagram"
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <div class="filled"></div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-instagram"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </a>
+            <div class="tooltip">Instagram</div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    
+    <!-- About section -->
+    <section class="about" id="about">
+      <div class="title reveal">
+        <h2 class="section-title">About Me</h2>
+      </div>
+      <div class="content">
+        <div class="column col-left reveal">
+          <div class="img-card">
+            <img src="assets/profile-1.webp" alt="Ajay S profile photo">
+          </div>
+        </div>
+        <div class="column col-right reveal">
+          <h2 class="content-title">Hey There! I'm Ajay S</h2>
+          <p class="paragraph-text">
+            As a motivated Mechatronics engineering student with a strong interest in space science, robotics, and automation, I bring a versatile skill set that bridges both technical and creative fields. I have hands-on experience with robotic systems using ROS, Raspberry Pi, and ESP microcontrollers, and I am proficient in 3D modeling with SOLIDWORKS and AutoCAD. I enjoy working on robotic simulations using platforms like CoppeliaSim and also specialize in graphic and UI/UX design using tools such as Adobe Photoshop, Illustrator, Inkscape, Figma, and Canva. My background includes designing responsive websites and developing hardware-software integration projects. I began exploring design as a personal interest, which has now become an important part of how I approach engineering problems. Recently, I’ve worked on an IoT-based smart seeding and spraying robot for agricultural automation and a structural crack sealing robot, highlighting my passion for robotics in real-world and space-related applications. My multidisciplinary mindset allows me to take on challenging projects and deliver creative, functional, and future-focused solutions.
+            <br>
+            <br><b>Highest Qualification </b>- BE Mechatronics Engineering, Sri Krishna College of Engineering and Technology, Coimbatore.
+          </p>
+          <a href="assets/Resume@Ajay-RDE.pdf" class="btn" download>Download Resume</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+      <div class="title reveal">
+        <h2 class="section-title">My Skills</h2>
+      </div>
+      <div class="content">
+        <div class="column col-left reveal">
+          <h2 class="content-title">My Skills and Experiences</h2>
+          <p>As a student with a multidisciplinary background, I bring experience in graphic design, 3D modeling, industrial automation, web design, and chatbot development. I am proficient in Adobe Creative Suite for producing engaging visual content and skilled in 3D design tools like SOLIDWORKS and AutoCAD. My experience also includes working with ROS for robotic applications and FATEK PLCs for automation systems. I have a strong grasp of Inkscape, Canva, Figma, and other platforms for designing responsive, user-centered websites. In addition, I have created and deployed chatbots for Messenger and Instagram, helping deliver creative and effective marketing solutions.</p>
+          <a href="#my-work" class="btn">See More</a>
+        </div>
+        <div class="column col-right reveal">
+          <div class="bar">
+            <div class="info">
+              <span>SOLIDWORKS / AutoCAD</span>
+              <span>95%</span>
+            </div>
+            <div class="line html"></div>
+          </div>
+          <div class="bar">
+            <div class="info">
+              <span>Graphic Design (Adobe Ai/Ps/xD)</span>
+              <span>85%</span>
+            </div>
+            <div class="line css"></div>
+          </div>
+          <div class="bar">
+            <div class="info">
+              <span>Web Design (HTML / CSS / JS)</span>
+              <span>80%</span>
+            </div>
+            <div class="line javascript"></div>
+          </div>
+          <div class="bar">
+            <div class="info">
+              <span>ROS</span>
+              <span>55%</span>
+            </div>
+            <div class="line jquery"></div>
+          </div>
+          <div class="bar">
+            <div class="info">
+              <span>Python / Java</span>
+              <span>50%</span>
+            </div>
+            <div class="line php"></div>
+          </div>
+        </div>
+      </div><br>
+
+      <h2 class="section-title">Tools Known</h2>
+
+      <div class="slider">
+        
+        <div class="slide-track">
+          <div class="slide">
+            <img src="assets/solidworks (1).png" alt="" />
+          </div>
+          <div class="slide">
+            <img src="assets/abb (1).png"  alt="" />
+          </div>
+          <div class="slide">
+            <img src="assets/adobe dx.png"  alt="" />
+          </div>
+          <div class="slide">
+            <img src="assets/arduino (1).png"  alt="" />
+          </div>
+          <div class="slide">
+            <img src="assets/autocad (1).png"  alt="" />
+          </div>
+          <div class="slide">
+            <img src="assets/blender (1).png"  alt="" />
+          </div>
+          <div class="slide">
+            <img src="assets/figma (1).png"  alt="" />
+          </div>
+          <div class="slide">
+            <img src="assets/ansys.jpg"  alt="" />
+          </div>
+          <div class="slide">
+            <img src="assets/css logo.png" alt="" />
+          </div>
+          <div class="slide">
+            <img src="assets/html logo (1).png"  alt="" />
+          </div>
+          <div class="slide">
+            <img src="assets/js logo.png"  alt="" />
+          </div>
+          <div class="slide">
+            <img src="assets/inkscape (1).png"  alt="" />
+          </div>
+          <div class="slide">
+            <img src="assets/Illustrator.jpg" alt="" />
+          </div>
+          <div class="slide">
+            <img src="assets/photoshop.png" alt="" />
+          </div>
+          <div class="slide">
+            <img src="assets/solidworks (1).png"  alt="" />
+          </div>
+          <div class="slide">
+            <img src="assets/abb (1).png"  alt="" />
+          </div>
+          <div class="slide">
+            <img src="assets/adobe dx.png"alt="" />
+          </div>
+          <div class="slide">
+            <img src="assets/arduino (1).png" alt="" />
+          </div>
+          <div class="slide">
+            <img src="assets/autocad (1).png"  alt="" />
+          </div>
+          <div class="slide">
+            <img src="assets/blender (1).png"  alt="" />
+          </div>
+          <div class="slide">
+            <img src="assets/figma (1).png"  alt="" />
+          </div>
+          <div class="slide">
+            <img src="assets/CoppeliaSim (1).png"  alt="" />
+          </div>
+          <div class="slide">
+            <img src="assets/css logo.png"  alt="" />
+          </div>
+          <div class="slide">
+            <img src="assets/html logo (1).png"  alt="" />
+          </div>
+          <div class="slide">
+            <img src="assets/js logo.png"  alt="" />
+          </div>
+          <div class="slide">
+            <img src="assets/inkscape (1).png"  alt="" />
+          </div>
+          <div class="slide">
+            <img src="assets/Illustrator.jpg"  alt="" />
+          </div>
+          <div class="slide">
+            <img src="assets/photoshop.png"  alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Services section -->
+    <section class="services" id="services">
+      <div class="title reveal">
+        <h2 class="section-title">My Services</h2>
+        <p>I am a versatile Engineering student skilled in logo design, web development, and UI design. I offer freelance services focused on creating clean, user-friendly designs and interactive interfaces. My passion for creative design and 3D modeling allows me to deliver visually engaging and technically sound solutions tailored to each client’s goals.</p>
+      </div>
+      <div class="content">
+        <div class="card reveal">
+          <div class="service-icon">
+            <i class="fas fa-palette"></i>
+          </div>
+          <div class="info">
+            <h3>Logo Design</h3>
+            <p>I specialize in crafting logos that are minimal, meaningful, and visually strong using Adobe Illustrator and Photoshop. My approach blends creativity with functionality, ensuring that each logo not only looks professional but also aligns with the brand’s identity and message. I focus on delivering designs that leave a lasting impression.</p>
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="service-icon">
+            <i class="fas fa-atom"></i>
+          </div>
+          <div class="info">
+            <h3>Web Design</h3>
+            <p>I am also experienced in designing and developing responsive websites using HTML, CSS, JavaScript, and Figma. My work includes transforming ideas into engaging web pages and crafting intuitive user interfaces. I aim to create modern web designs that communicate clearly and offer a seamless user experience across all devices.</p>
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="service-icon">
+            <i class="fab fa-artstation"></i>
+          </div>
+
+          <div class="info">
+            <h3>Mechanical Product Design</h3>
+            <p>As a Mechatronics student with hands-on experience in SOLIDWORKS, AutoCAD, and ROS, I design functional 3D models and simulate robotic systems. My skills include developing mechanical components and automating tasks through simulation, allowing for effective design visualization and rapid prototyping.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Work/Portfolio section -->
+<section class="work" id="work">
+  <div class="title reveal">
+    <h2 class="section-title">Experience</h2>
+    <p class="section-caption">Mechatronics Engineer<br>THALIR AUTOMATIONS, Coimbatore, Tamil Nadu</p>
+    <div class="portfolio-grid">
+      <div class="portfolio-card">
+        <div class="portfolio-image">
+          <img src="assets/robotic-arm.jpg" alt="E-commerce Platform">
+          <div class="portfolio-overlay">
+            <button class="view-btn" data-certificate="assets/Internship Certificate - TA (1).pdf">View Certificate</button>
+          </div>
+        </div>
+        <div class="portfolio-content">
+          <h3>Mechatronics Engineer<br>THALIR AUTOMATIONS, Coimbatore, Tamil Nadu</h3>
+          <p style="text-align: left;">May 2025 - June 2025<br>Worked under the SPM Projects of Automation Systems & Machineries Manufacturing in ,
+            <br>  • Input Shaft Bearing Pressing Machine
+            <br>  • Seal Pressing Machine 
+            <br>  • Performance Testing Machine<br> 
+            <br>And Trial testing & Analysis for ,
+            <br>  • Tap body assembly Machine
+            <br>  • Vaccum Tip Flaring Station
+            <br>  • Hand guard Riveting Station<br>
+            <br><strong>Skills/Knowledge Gained :</strong></p>
+          
+          <div class="tech-stack">
+            <span>PLC Communication</span>
+            <span>Hydro-pneumatics</span>
+            <span>Assembly engineering</span>
+            <span>Project & Team Management</span>
+            <span>Electrical panel wiring</span>
+            <span>Hydraulic and Pneumatic systems</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="portfolio-card">
+        <div class="portfolio-image">
+          <img src="assets/cnchmc.jpg" alt="Brand Identity">
+          <div class="portfolio-overlay">
+            <button class="view-btn" data-certificate="assets/Adobe Scan Aug 08, 2024.pdf">View Certificate</button>
+          </div>
+        </div>
+        <div class="portfolio-content">
+          <h3>Quality Control Engineer<br>HARSHA CNC, Coimbatore, Tamil Nadu</h3>
+          <p style="text-align: left;">July 2024 - July 2024<br>• Executed machine codes and technical operations and Collaborated with Quality Control team to optimize machining processes and reduce downtime. 
+            <br>• Conducted regular maintenance checks and troubleshooting. 
+            <br>• Utilized CAD/CAM software for programming and design, enhancing accuracy and productivity.<br>
+            <br>Skills/Knowledge Gained :<br></p>
+          
+          <div class="tech-stack">
+            <span>Quality Control</span>
+            <span>CNC Machining Process</span>
+            <span>VMC & HMC</span>
+            <span>Machining Tools</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="portfolio-card">
+        <div class="portfolio-image">
+          <img src="assets/spacestation-2.jpg" alt="Product Design">
+          <div class="portfolio-overlay">
+            <button class="view-btn">Ongoing</button>
+          </div>
+        </div>
+        <div class="portfolio-content">
+          <h3>Research Intern (Remote)<br>SPAROBIX, Ahmedabad, Gujarat</h3>
+          <p style="text-align: left;">March 2025 - Present<br>My Research areas for Robotics and Automation in Space science and Technology are,
+            <br>  • Autonomous Robotic Manipulation 
+            <br>  • Human Robot Interaction & Teleoperation 
+            <br>  • Macro scale Robotic 3D Printing<br> 
+            <br>Skills/Knowledge Gained :<br></p>
+          <div class="tech-stack">
+            <span>Space Robotics</span>               
+            <span>Mobile Robotics</span>
+            <span>Gazebo</span>
+            <span>ROS</span>
+            <span>Reinforcement Learning</span>
+            <span>Conntrol Systems for Robotics</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- New Section for My Work -->
+<section id="my-work" class="work-cards-container">
+  <h2 class="section-title">My Work</h2>
+  <div class="container">
+    <div class="card__container">
+      <article class="card__article">
+        <img src="assets/MINIPROJ-2.png" alt="IOT Based Smart Seeding & Spraying Robot" class="card__img">
+        <div class="card__data">
+          <span class="card__description">6 DOF Robotic Arm</span>
+          <h2 class="card__title">3D Modeling</h2>
+          <a href="https://github.com/Ajay-464/6DOF-Robotic-Arm-Solidworks" class="card__button" target="_blank" rel="noopener noreferrer">View more</a>
+        </div>
+      </article>
+
+      <article class="card__article">
+        <img src="assets/VA Entriprises.jpg" alt="Logo Design for VA Enterprises" class="card__img">
+        <div class="card__data">
+          <span class="card__description">My recent works in Logo Designing</span>
+          <h2 class="card__title">LOGO Designs</h2>
+          <a href="https://drive.google.com/drive/folders/1kAKafeoklztpolwLpwNA7nLT523kbaFB?usp=sharing" class="card__button" target="_blank" rel="noopener noreferrer">View more</a>
+        </div>
+      </article>
+      
+      <article class="card__article">
+        <img src="assets/grphs.png" alt="Ford Mustang Graphic Design" class="card__img">
+        <div class="card__data">
+          <span class="card__description">Graphic Designs</span>
+          <h2 class="card__title">Graphic Designs</h2>
+          <a href="https://drive.google.com/drive/folders/1rl8EFLjbYH1wa3UUJ6IbJnZlWp2vyUQD?usp=sharing" class="card__button" target="_blank" rel="noopener noreferrer">View More</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+    <!-- Certifications section -->
+    <div class="wrapper">
+      <div class="title reveal">
+        <h2 class="section-title">My Certifications</h2>
+        <br>
+      </div>
+      <div class="item item1">
+        <img src="assets/certificate-1.jpg" alt="Certificate 1" class="item1">
+      </div>
+      <div class="item item2">
+        <img src="assets/certificate-2.jpg" alt="Certificate 2" class="item2">
+      </div>
+      <div class="item item3">
+        <img src="assets/certificate-3.png" alt="Certificate 3" class="item3">
+      </div>
+      <div class="item item4">
+        <img src="assets/certificate-4.png" alt="Certificate 4" class="item4">
+      </div>
+      <div class="item item5">
+        <img src="assets/certificate-5.png" alt="Certificate 5" class="item5">
+      </div>
+      <div class="item item6">
+        <img src="assets/certificate-6.png" alt="Certificate 6" class="item6">
+      </div>
+      <div class="item item7">
+        <img src="assets/certificate-7.png" alt="Certificate 7" class="item7">
+      </div>
+      <div class="item item8">
+        <img src="assets/certificate-8.png" alt="Certificate 8" class="item8">
+      </div>
+      <div class="item item9">
+        <img src="assets/certificate-9.png" alt="Certificate 9" class="item9">
+      </div>
+      <div class="item item10">
+        <img src="assets/certificate-10.png" alt="Certificate 10" class="item10">
+      </div>
+      <div class="item item11">
+        <img src="assets/certificate-11.png" alt="Certificate 11" class="item11">
+      </div>
+      <div class="item item12">
+        <img src="assets/certificate-12.jpg" alt="Certificate 12" class="item12">
+      </div>
+      <div class="item item13">
+        <img src="assets/certificate-13.jpg" alt="Certificate 13" class="item13">
+      </div>
+      <div class="item item14">
+        <img src="assets/certificate-14.jpg" alt="Certificate 14" class="item14">
+      </div>
+      <div class="item item15">
+        <img src="assets/Achievements - ajays-464  consume ai azure_page-0001.jpg" alt="Certificate 15" class="item15">
+      </div>
+      <div class="item item16">
+        <img src="assets/six sig ln_page-0001.jpg" alt="Certificate 16" class="item16">
+      </div>
+      <div class="item item17">
+        <img src="assets/Achievements - ajays-464 _ deployed container apps_page-0001.jpg" alt="Certificate 17" class="item17">
+      </div>
+      <div class="item item18">
+        <img src="assets/sol ln_page-0001.jpg" alt="Certificate 18" class="item18">
+      </div>
+      <div class="item item19">
+        <img src="assets/Achievements - ajays-464 _ Microsoft Learn_page-0001.jpg" alt="Certificate 19" class="item19">
+      </div>
+      <div class="item item20">
+        <img src="assets/plc ln_page-0001.jpg" alt="Certificate 20" class="item20">
+      </div>
+      <div class="item item21">
+        <img src="assets/Achievements - ajays-464 _ SIEM_page-0001.jpg" alt="Certificate 21" class="item21">
+      </div>
+      <div class="item item22">
+        <img src="assets/deeplern ln_page-0001.jpg" alt="Certificate 22" class="item22">
+      </div>
+      <div class="item item23">
+        <img src="assets/LinkedIn Learning Certificate_page-0001.jpg" alt="Certificate 23" class="item23">
+      </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="title reveal">
+          <h2 class="section-title">Contact Me</h2>
+        </div>
+        
+        <div class="content">
+          <div class="row">
+            <div class="card reveal">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="info">
+                <h3>Address</h3>
+                <span>Tiruppur, Tamil Nadu</span>
+              </div>
+            </div>
+            <div class="card reveal">
+              <div class="contact-icon">
+                
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="info">
+                <h3>Phone</h3>
+                <span>+91 9566588778</span>
+              </div>
+            </div>
+            <div class="card reveal">
+              <div class="contact-icon">
+                
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="info">
+                <h3>Email Address</h3>
+                <span>contact@ajaysvj.me</span>
+              </div>
+            </div>
+            <div class="card reveal">
+              <div class="contact-icon">
+                <a href="https://github.com/Ajay-464" target="_blank" rel="noopener noreferrer">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+              <div class="info">
+                <h3>Github</h3>
+                <span>Ajay 464</span>
+              </div>
+            </div>
+            <div class="card reveal">
+              <div class="contact-icon">
+                <a href="https://www.instagram.com/ajay_.464" target="_blank" rel="noopener noreferrer">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </div>
+              <div class="info">
+                <h3>Instagram</h3>
+                <span>ajay_.464</span>
+              </div>
+            </div>
+            <div class="card reveal">
+              <div class="contact-icon">
+                <a href="https://www.linkedin.com/in/ajay-s-34462b333" target="_blank" rel="noopener noreferrer">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </div>
+              <div class="info">
+                <h3>LinkedIn</h3>
+                <span>Ajay S</span>
+              </div>
+            </div>
+          </div>
+          
+          <br><div class="row">
+            <div class="contact-form">
+              <form id="form">
+                <h3>Connect with Me !!</h3>
+                
+                <div class="input-box">
+                  <input type="text" name="name" id="name" placeholder="Your Name" required />
+                </div>
+                <div class="input-box">
+                  <input type="email" name="email" id="email" placeholder="you@gmail.com" required />
+                </div>
+                <div class="input-box">
+                  <input type="text" name="phone" id="phone" placeholder="Phone no." required />
+                </div>
+                <div class="input-box">
+                  <textarea
+                    rows="5"
+                    name="message"
+                    id="message"
+                    placeholder="Your Message"
+                    required
+                  ></textarea>
+                </div>
+                <div class="input-box">
+                  <button type="submit" class="send-btn">
+                    <span class="btn-text">Send Message</span>
+                    <i class="fas fa-paper-plane btn-icon"></i>
+                  </button>
+                </div>
+                <div class="result-container">
+                  <p class="result-message" id="result"></p>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <img src="assets/SIgn LOgo Ajay.png" alt="Logo" class="footer-logo" />
+        <p>Created by Ajay464 <span class="far fa-copyright"></span> || <a href="#"> Ajay 464 </a>2025 All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
